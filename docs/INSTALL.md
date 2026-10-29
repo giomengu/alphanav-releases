@@ -1,23 +1,18 @@
 # Installing AlphaNav
 
-AlphaNav's installers are not signed with an Apple or Microsoft developer certificate yet. Your
-system warns about that on the first launch; the steps below get past it once. You can check a
-download against the release's `SHA256SUMS.txt` first (see the [README](../README.md#verify-a-download)).
+The macOS app is signed with an Apple Developer ID and notarised by Apple. The Windows installer is not
+signed with a Microsoft certificate yet: Windows warns about it the first time. You can check a download
+against the release's `SHA256SUMS.txt` first (see the [README](../README.md#verify-a-download)).
 
 ## macOS (Apple Silicon)
 
 1. Open `AlphaNav-mac-arm64.dmg` and drag **AlphaNav** to **Applications**.
-2. Open AlphaNav from Applications. macOS says it cannot check it: click **Done** (or **OK**).
-3. Open **System Settings ▸ Privacy & Security**, scroll down to the message about AlphaNav and click
-   **Open Anyway**, then confirm with your password.
-4. On the first start macOS asks whether AlphaNav may accept incoming network connections: **Allow** it
+2. Open AlphaNav from Applications. macOS asks once whether to open an app downloaded from the internet:
+   **Open**.
+3. On the first start macOS asks whether AlphaNav may accept incoming network connections: **Allow** it
    if phones or tablets on the boat's network should open AlphaNav, otherwise **Deny**.
 
-If macOS says the app "is damaged", the download kept its quarantine mark. In Terminal:
-
-```sh
-xattr -dr com.apple.quarantine /Applications/AlphaNav.app
-```
+Versions before 1.0.7 were not notarised: if one of those will not open, install the latest instead.
 
 Intel Macs are not supported yet.
 

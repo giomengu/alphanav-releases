@@ -22,8 +22,9 @@ These links always give the latest version. Every version, its notes and its che
 
 ## Install
 
-The installers are not signed with an Apple or Microsoft certificate yet, so the first launch asks
-for one extra confirmation. [docs/INSTALL.md](docs/INSTALL.md) has the steps for each system.
+The macOS app is signed and notarised by Apple: it opens like any other app. The Windows installer is
+not signed with a Microsoft certificate yet, so Windows asks for one extra confirmation the first time.
+[docs/INSTALL.md](docs/INSTALL.md) has the steps for each system.
 
 Installing a new version over the old one keeps your settings, routes and charts: AlphaNav updates
 its database on the first start, after making a copy of it.
