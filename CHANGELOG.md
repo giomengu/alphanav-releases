@@ -5,6 +5,13 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.0.5
+
+- ECMWF 9 km (and 0.25°) downloads are saved as GRIB2 in the GRIB download folder, ready for Adrena and other software.
+- GRIB downloads keep going, with their progress, when you switch tabs; an optional notification tells you when one finishes or fails.
+- Settings ▸ Map Files is shorter and shows your GRIB download folder.
+- macOS: no more Keychain prompt ('Safe Storage') at every launch.
+
 ## 1.0.4
 
 - Installs that already had AlphaNav update their database on start (a copy is kept): routes, map
