@@ -5,6 +5,10 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.0.7
+
+- macOS: signed with Developer ID and notarised by Apple — it opens with no security warning.
+
 ## 1.0.5
 
 - ECMWF 9 km (and 0.25°) downloads are saved as GRIB2 in the GRIB download folder, ready for Adrena and other software.
