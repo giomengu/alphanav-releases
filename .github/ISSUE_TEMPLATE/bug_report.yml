@@ -1,0 +1,42 @@
+name: Something does not work
+description: A problem with AlphaNav
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: AlphaNav version
+      description: In AlphaNav, AlphaNav ▸ About (Help ▸ About on Windows and Linux).
+      placeholder: "1.0.4"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Computer
+      options:
+        - macOS (Apple Silicon)
+        - Windows 10 / 11
+        - Linux (Debian / Ubuntu)
+        - Linux (Fedora / RHEL)
+        - A phone or tablet, in the browser
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what AlphaNav did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: Help ▸ Open Logs Folder, then attach electron-main.log (drag it here). Remove anything private first.
+  - type: checkboxes
+    id: update
+    attributes:
+      label: Update
+      options:
+        - label: This started after installing a new version over an older one

@@ -1,0 +1,33 @@
+name: Licence key
+description: Buy a licence, renew one, or move one to another computer
+title: "Licence: "
+labels: [licence]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A licence key runs AlphaNav on one computer. Do not paste a licence key you already have here: this page is public.
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - 1 month
+        - 3 months
+        - 6 months
+        - 12 months
+        - No end date
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Machine ID
+      description: On the activation page (AlphaNav ▸ Licence…), for example E375-3BD9-8D77-0769.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: A renewal, a computer replaced, the name the licence should carry.

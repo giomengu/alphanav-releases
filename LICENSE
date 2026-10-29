@@ -1,0 +1,84 @@
+AlphaNav — Software Licence Agreement
+
+Copyright (c) 2025–2026 Giovanni Mengucci. All rights reserved.
+
+This agreement is between Giovanni Mengucci ("the Licensor") and the person or organisation that
+installs or uses AlphaNav ("you"). By installing or using AlphaNav you accept it. If you do not
+accept it, do not install or use AlphaNav.
+
+1. The software
+   "AlphaNav" means the AlphaNav applications (desktop, server, web and mobile), their source and
+   object code, data formats, documentation and updates. AlphaNav is licensed, not sold. The
+   Licensor keeps all rights, title and interest in it, including all intellectual property rights.
+
+2. Licence
+   2.1 Subject to this agreement and to payment of the applicable fee, the Licensor grants you a
+       non-exclusive, non-transferable, non-sublicensable licence to install and use AlphaNav, for
+       your own navigation, racing and boat-management purposes, for the term of your licence key.
+   2.2 A licence key is issued for one plan: 1 month, 3 months, 6 months, 12 months, or with no end
+       date. Your right to use AlphaNav ends when the term of your key ends, unless renewed.
+   2.3 A licence key is issued for one machine, identified by the machine ID AlphaNav shows. You may
+       use it only on that machine. Moving a licence to another machine requires a new key from the
+       Licensor.
+   2.4 Without a key you may use AlphaNav for a free trial of 30 days, once per machine, for
+       evaluation only. Resetting, extending or repeating the trial, on the same machine or by
+       any other means, is not permitted.
+   2.5 Evaluation, beta or developer builds may be provided without a key. They are licensed for
+       evaluation only, for as long as the Licensor allows.
+
+3. Restrictions
+   Except as the law expressly permits despite this restriction, you must not:
+   a) copy, distribute, sell, rent, lend, sublicense or otherwise make AlphaNav available to others;
+   b) share, publish or transfer a licence key, or use one key on more machines than it was issued for;
+   c) remove, disable, bypass or interfere with the licence check, licence keys, the machine binding,
+      the trial period or any other technical protection, or create, use or distribute keys,
+      patches or tools for that purpose;
+   d) modify, translate, adapt or create derivative works of AlphaNav;
+   e) decompile, disassemble or reverse engineer AlphaNav, or attempt to derive its source code;
+   f) remove or alter any copyright, trademark or licence notice.
+   Any attempt to do so ends this licence immediately and without refund.
+
+4. Source code access
+   Access to the source code (for example to a private repository) is granted only to people the
+   Licensor authorises in writing, only for the purposes the Licensor states, and gives no right to
+   use, copy or distribute AlphaNav beyond them. All code contributed to AlphaNav by such people is
+   assigned to the Licensor unless agreed otherwise in writing.
+
+5. Third-party components
+   AlphaNav includes open-source components that are licensed under their own terms. Those terms
+   govern those components; nothing in this agreement limits rights they grant you.
+
+6. Navigation safety
+   AlphaNav is an aid to navigation. It is not certified as, and does not replace, official charts,
+   approved navigation equipment, a proper lookout or the judgement of a competent skipper. Charts,
+   weather forecasts, routings, instrument data, AIS, alarms and every other output may be
+   incomplete, late or wrong. You alone are responsible for the safe navigation of your vessel and
+   for complying with the rules that apply to it, including the International Regulations for
+   Preventing Collisions at Sea and the rules of any race you enter.
+
+7. No warranty
+   To the extent the law allows, AlphaNav is provided "as is" and "as available", without warranty
+   of any kind, express or implied, including warranties of merchantability, fitness for a
+   particular purpose, accuracy and non-infringement.
+
+8. Limitation of liability
+   To the extent the law allows, the Licensor is not liable for any indirect, incidental, special,
+   consequential or punitive damages, or for loss of or damage to vessels, equipment, data, races,
+   profits or time, arising out of or in connection with AlphaNav, however caused. The Licensor's
+   total liability under this agreement is limited to the fees you paid for AlphaNav in the twelve
+   months before the claim. Nothing in this agreement limits liability that cannot be limited by law,
+   such as liability for death or personal injury caused by negligence, or for fraud.
+
+9. Term and termination
+   This agreement lasts for the term of your licence key. It ends automatically if you breach it.
+   When it ends you must stop using AlphaNav and delete all copies. Sections 1, 3, 5–10 survive.
+
+10. General
+   This agreement is governed by the laws of Italy, without regard to its conflict-of-law rules, and
+   the courts of Italy have exclusive jurisdiction, except where the consumer-protection law of your
+   country of residence gives you the right to bring a claim there. If any part of this agreement is
+   found unenforceable, the rest remains in force. This agreement is the entire agreement between you
+   and the Licensor about AlphaNav, unless a separate written agreement signed by the Licensor says
+   otherwise.
+
+Contact: https://github.com/giomengu/alphanav-releases/issues
