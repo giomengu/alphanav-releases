@@ -5,6 +5,10 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.2.2
+
+AlphaNav 1.2.2
+
 ## 1.1.1
 
 Race tracking
