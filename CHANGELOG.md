@@ -5,6 +5,10 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.2.5
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
 ## 1.2.4
 
 AlphaNav 1.2.4
