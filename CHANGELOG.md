@@ -5,6 +5,13 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.2.8
+
+- Routing: every routing on the map carries its boat at the map's time, between its points and turning with the leg; a settings tab; run names from a template; reverse isochrones and arrive-by fixed; the frontier filters in place instead of copying ~20k nodes a step.
+- Licence: the Swift processors (instrument, routing, charts, grib, zones, weather) check the licence themselves, so run on their own they do no work for an unlicensed install. Installs from the repository (development, the Pi) are unaffected.
+- A boat's position at a time, for the tracks and the map.
+- Installers: macOS (arm64), Windows (x64), Debian/Ubuntu (amd64), Fedora/RHEL (x86_64).
+
 ## 1.2.7
 
 AlphaNav 1.2.7
