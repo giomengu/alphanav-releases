@@ -5,6 +5,18 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.2.9
+
+- Weather routing: a single routing engine, the newer frontier, for every run. It keeps a well-spread frontier at each step, finds routes around land and marks more reliably, and needs no engine or frontier choice any more.
+- Weather routing: reverse isochrones, arrive-by, currents, wind and polar percentages and variation sweeps are always available, with no "needs another engine" warnings.
+- Weather routing: "Best of N" is a plain option in the Solver section, for ensemble runs with their own beam, temperature and jitter.
+- Weather routing: forecasts are read by their time and area index only, so routing starts sooner and uses less memory on large GRIB files.
+- Weather routing: earlier saved runs, forms, pivots and automator flows open and recompute on the new engine as they are.
+- Web Page widget: a site that refuses to be shown inside another page no longer leaves a blank white box. The widget says why, and offers "Open in its own window" or "Try here anyway".
+- Widgets: retired legacy widgets are gone from the widget list. A saved layout that still holds one shows a small placeholder you can remove.
+- Updates: the app tidies away downloaded installers and the previous version's files after updating.
+- Installers: macOS (arm64), Windows (x64), Debian/Ubuntu (amd64), Fedora/RHEL (x86_64).
+
 ## 1.2.8
 
 - Routing: every routing on the map carries its boat at the map's time, between its points and turning with the leg; a settings tab; run names from a template; reverse isochrones and arrive-by fixed; the frontier filters in place instead of copying ~20k nodes a step.
