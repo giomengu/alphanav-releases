@@ -5,6 +5,10 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.0
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
 ## 1.2.9
 
 - Weather routing: a single routing engine, the newer frontier, for every run. It keeps a well-spread frontier at each step, finds routes around land and marks more reliably, and needs no engine or frontier choice any more.
