@@ -5,6 +5,21 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.2
+
+Security update: install it in place of 1.2.9 or 1.3.0.
+
+Before updating from 1.2.9: polars you uploaded were stored inside the app and the update replaces them. Export them from the polar editor first, then upload them again.
+
+- Wi-Fi: earlier versions shipped a set of Wi-Fi networks with their passwords in the app's network settings. This version removes them from your settings and from your saved settings backups the first time it starts. Networks you added yourself are kept.
+- Web pages from the internet can no longer change AlphaNav's settings or files, or open its live data, through a browser on the boat's network.
+- Polar and other file requests accept plain file names only; an uploaded file can no longer be run as code.
+- Your polars and sail charts are now kept in your settings folder, so updates no longer replace them. The app ships one default polar and the default sail chart.
+- AIS collision and distress alarms are computed by the instrument core, for VHF and web AIS targets alike.
+- Polars, sail chart tables and routing checks now run in AlphaNav's Swift core. GRIB files no longer need Java.
+- Routing with a currents GRIB works again.
+- Server components updated with security fixes.
+
 ## 1.3.0
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
