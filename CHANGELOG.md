@@ -5,6 +5,14 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.3
+
+- The processor runs on a core rate (25 Hz by default). Calculations have a default rate and their own, and the screens and every output send on a whole fraction of it: each output picks its rate from those (Processor ▸ Outputs). The screens' rate carries over from the old "publish" setting. Processor ▸ Core sets the core rate and the decoders.
+- IMU mounting: say where the sensor's axes point in the boat, or level it with one tap (Processor ▸ IMU). The IMU gives the boat's heel, trim, heading and roll, pitch and yaw rates with the usual signs (heel to starboard positive, bow up positive).
+- Motion-corrected apparent wind: a calculation can correct the masthead's wind for the mast's motion and become the boat's apparent wind, which the NMEA 0183 and NMEA 2000 outputs send, with true wind from it. New helpers for heel-levelled apparent wind. Mast-motion helpers now take the IMU's boat rates (formulas that used the raw gyroscope need updating).
+- Raspberry Pi server: the processor builds as a fully static Linux program; the IMU's 3 Mbaud serial link and SocketCAN work in it.
+- Devices and roles, the processor's own API, the storage core and many fixes from the last weeks.
+
 ## 1.3.2
 
 Security update: install it in place of 1.2.9 or 1.3.0.
