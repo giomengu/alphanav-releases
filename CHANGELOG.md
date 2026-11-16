@@ -5,6 +5,18 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.5
+
+- AlphaNav now ships open maps only: OpenWaters Seamap, OpenFreeMap, OpenSeaMap seamarks, and CM93 charts you supply. Add any other map you have the right to use in Settings ▸ Map sources: a tile or style address, the key or account it needs (kept on the server, never shown to other devices), its credit, and whether tiles are kept for offline use. Maps saved with a source AlphaNav no longer ships open on the open vector map.
+- CM93 charts draw their buoys, beacons, topmarks, lights, rocks, wrecks, landmarks and harbour facilities with OpenWaters' chart symbols, in the right shapes and colours (IALA A and B). Chart symbols: OpenWaters or INT-1, in the CM93 map settings.
+- Every map label is in one open font, Fira Mono, served by AlphaNav itself.
+- Each map keeps its own settings with its window: base maps, layers, tools and style come back after a refresh exactly as you left them, whatever another map does. Presets are a library: choosing one applies it to that map, Save adds the map to it. The shipped preset is a single Default (OpenWaters, dark).
+- Dark mode: water stays blue, with shallows lighter than deep water; labels a chart gives no colour, and coloured ones, turn light with their halo, so no text is lost black on black.
+- The coast's shadow under the weather is a smooth drop shadow now (or a glow, or none: Settings of each map, and the weather hub's Coast card).
+- A safety notice when AlphaNav opens, and in the server's log at start: AlphaNav is an aid to navigation, not the only means of it.
+- Settings ▸ Diagnostics ▸ Legal: AlphaNav's licence and the notices of the open-source software, data and fonts it includes. Fonts are part of the app: nothing is loaded from a font service.
+- The default boat polar is a Classe 950.
+
 ## 1.3.3
 
 - The processor runs on a core rate (25 Hz by default). Calculations have a default rate and their own, and the screens and every output send on a whole fraction of it: each output picks its rate from those (Processor ▸ Outputs). The screens' rate carries over from the old "publish" setting. Processor ▸ Core sets the core rate and the decoders.
