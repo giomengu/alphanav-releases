@@ -5,6 +5,13 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.7
+
+- Add an owner's .mbtiles chart from Settings ▸ Map sources ▸ Chart files. Chart files are read without changing them.
+- Custom vector styles stay selected, including styles hosted on a retired built-in map's domain.
+- Windows serial ports such as COM9 open correctly; Windows absolute paths are preserved for recordings and replay.
+- New CM93 maps start with less land detail and chart-production clutter. The optional sub-layers can be turned on in the map settings.
+
 ## 1.3.6
 
 - Map overlays are edited zone by zone: the map's zones as a grid of cards, each saying what is in it; open one to see its toolbars, data cards and controls, tap one to change it (order, zone, shown, direction, settings, remove), and + opens a searchable list of everything that can be added. It works the same on a phone.
