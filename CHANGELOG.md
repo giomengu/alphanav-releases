@@ -5,6 +5,18 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.6
+
+- Map overlays are edited zone by zone: the map's zones as a grid of cards, each saying what is in it; open one to see its toolbars, data cards and controls, tap one to change it (order, zone, shown, direction, settings, remove), and + opens a searchable list of everything that can be added. It works the same on a phone.
+- Submenus: a button in a toolbar that opens more controls, with a tab beside it as the weather toolbar's. Its button shows the control last used in it, letters, or one of the app's icons.
+- Collapsible toolbars, the same everywhere: collapsed at first, open while the pointer is over them, and a click on their icon keeps them open or closed. The weather toolbar is one; the navigation toolbar and your own can be made so.
+- The weather toolbar is a standard toolbar: every weather field (wind, gust, pressure, temperature, rain, cloud, waves, swell and their periods, current, sea temperature…) is a control you can move, copy, reorder or put in a submenu, each with its files and settings tab. Their order is the one you set. Gust and pressure are drawn over the wind.
+- Power: Settings ▸ Power and the layout menu offer High, Medium (the low-power graphics card and fewer redraws, the wind still flowing), Low (also a lower resolution and the wind still) and Automatic (Medium on battery). A change applies to the maps on screen at once.
+- A map whose graphics the system refuses (a graphics driver reset) shows a message and Try again in its own panel instead of stopping the app; the desktop app gets the graphics back after a driver reset without a restart.
+- Layouts: switching between layouts, duplicating and pushing to or reloading from the shared copy keep each layout's own content (a layout could show, and save, the one opened before it).
+- On a phone: the top bar takes two rows, Split is the default arrangement, a + menu adds and removes widgets in every arrangement, the map in Map + sheet ends above the sheet (its controls stay in sight), and the licence is in Settings ▸ Diagnostics instead of a banner.
+- The map's settings button lines up with the toolbars over the map.
+
 ## 1.3.5
 
 - AlphaNav now ships open maps only: OpenWaters Seamap, OpenFreeMap, OpenSeaMap seamarks, and CM93 charts you supply. Add any other map you have the right to use in Settings ▸ Map sources: a tile or style address, the key or account it needs (kept on the server, never shown to other devices), its credit, and whether tiles are kept for offline use. Maps saved with a source AlphaNav no longer ships open on the open vector map.
