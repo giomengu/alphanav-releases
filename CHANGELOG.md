@@ -5,6 +5,17 @@ Every public release of AlphaNav, newest first. Each version's installers are on
 
 <!-- releases: the publishing workflow adds each new version below this line -->
 
+## 1.3.8
+
+- Route editing: a dragged point, its legs and their distance labels follow the pointer exactly, the points being edited sit above every other map layer, and a point can be picked up as soon as the editor opens, even while the map is still loading.
+- Saving the route you are following updates the navigation at once: the map shows the saved route and the boat keeps heading for the same point.
+- The ruler and zone drawing follow the pointer the same way.
+- With weather layers shown, the map tools' cursors (grab, crosshair, pointer) are no longer overridden.
+- Editing no longer keeps the map busy: routes, zones and the goto line are not redrawn on every style change.
+- NKE WiFi Box (USB) as a connection, with exports and opt-in pilot commands.
+- Cursor Info: units, field order and the active polar; routing line width per map and per run.
+- The navigation database (marks, routes, zones, boats) and the GRIB folder run in Swift, as do routing request preparation and its live progress.
+
 ## 1.3.7
 
 - Add an owner's .mbtiles chart from Settings ▸ Map sources ▸ Chart files. Chart files are read without changing them.
